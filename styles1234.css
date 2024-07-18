@@ -1,0 +1,99 @@
+body {
+    font-family: 'Poppins';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('Image/cb53a546d6fb879425861a21d414c8d3.jpg') no-repeat center center fixed; 
+    background-size: cover; 
+    margin: 0;
+}
+
+
+.container {
+    background: linear-gradient(135deg, white, rgba(255, 255, 255, 0.355));
+    padding: 40px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(252, 187, 230, 0.637);
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: rgb(247, 147, 164);
+}
+
+input {
+    width: calc(100% - 40px); 
+    padding: 10px; 
+    border: 1px solid rgb(105, 60, 2);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px; 
+    border: none;
+    background:rgb(230, 162, 173);
+    color: rgba(88, 10, 10, 0.805);
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+button:hover {
+    background:rgb(198, 127, 139);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    max-height: 200px; 
+    overflow-y: auto;
+    width: 100%;
+}
+
+li {
+    background: rgba(176, 96, 109, 0.7);
+    padding: 10px; 
+    border: 1px solid #b3e5fc;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: rgb(255, 255, 255);
+}
+
+li button {
+    background: rgb(237, 227, 228);
+    padding: 5px 10px; 
+    border: none;
+    border-radius: 5px;
+    color: rgb(7, 0, 0);
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+li button:hover {
+    background: #c628be;
+}
+li input[type="date"] {
+    margin-left: 10px; /* Add margin between date input and buttons */
+}
+
+
